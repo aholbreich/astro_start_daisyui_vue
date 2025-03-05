@@ -1,0 +1,10 @@
+---
+// Import the Vue component
+import Counter from "../components/vue/Counter.vue";
+---
+
+<h1 class="text-3xl font-bold text-center">Astro + Vue Example</h1>
+
+<!-- Vue Component -->
+<!--  client:visible Loads Vue only when the component is visible. You can also use client:load to load it immediately. -->
+<Counter client:visible />

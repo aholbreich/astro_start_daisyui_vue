@@ -6,11 +6,14 @@ import tailwindcss from "@tailwindcss/vite";
 import netlify from "@astrojs/netlify";
 
 
+import vue from "@astrojs/vue";
+
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://example.com",
   trailingSlash: "never",
-  integrations: [mdx(), sitemap(), icon()],
+  integrations: [mdx(), sitemap(), icon(), vue({ devtools: true })],
   adapter: netlify(),
   vite: {
     plugins: [tailwindcss()],
