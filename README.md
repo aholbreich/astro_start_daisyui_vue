@@ -13,7 +13,7 @@ TODO. [Live Demo](https://todo)
 Bootstrap your new project using this template with:
 
 ```bash
-pnpm create astro@latest --template aholbreich/astro_start_tailwind
+pnpm create astro@latest --template aholbreich/astro_start_daisyui_vue
 ```
 
 Alternatively clone this repo and just start coding. The following commands should be helpful:
@@ -46,7 +46,9 @@ pnpm dlx serve dist
 - Astro SEO
 - Astro MDX
 - Tailwindcss 4
-- Alpine Js
+- Daisy UI 5!
+- VueJS
+
 - Netlify
 
 ## Collaboration
