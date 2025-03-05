@@ -1,5 +1,6 @@
 ---
 // Import the Vue component
+import AnimatedBox from "@components/vue/AnimatedBox.vue";
 import Counter from "../components/vue/Counter.vue";
 ---
 
@@ -8,3 +9,8 @@ import Counter from "../components/vue/Counter.vue";
 <!-- Vue Component -->
 <!--  client:visible Loads Vue only when the component is visible. You can also use client:load to load it immediately. -->
 <Counter client:visible />
+
+<h1 class="text-3xl font-bold text-center">Astro + Vue Motion</h1>
+
+<!-- Vue Animated Component -->
+<AnimatedBox client:load  />

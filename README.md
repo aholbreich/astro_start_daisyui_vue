@@ -1,12 +1,15 @@
 # Astro + Daisy IU + Vue.js project stater
 
-A minimalistic but Opionated Astro + Vue project starter. Particulary its bases on Astro 5, Tailwind 4, Daisy UI 5 and of course Vue.js
+A minimalistic but opinionated Astro + Vue project starter. Particularly its bases on Astro 5, Tailwind 4, Daisy UI 5 and of course Vue.js
 
-The purpose is to be the preconfigured project starter for this particularly very successful tech stack. 
+The purpose is to be the pre-configured project starter for this particularly very successful tech stack. 
 The project also, includes a few example components. 
 
+If you not intend to do very dynamic components. 
 
 TODO. [Live Demo](https://todo)
+
+Also see AlpineJS alternative [aholbreich/astro_start_tailwind](https://github.com/aholbreich/astro_start_tailwind)
 
 ## Usage
 
@@ -41,7 +44,7 @@ pnpm dlx serve dist
 
 ## Dependencies
 
-- Astro 5.3
+- Astro 5.4
 - Astro Icon
 - Astro SEO
 - Astro MDX
